@@ -131,11 +131,11 @@
 
                             <!--USE THIS!-->
 
-    <!-- HAMBERGER NAVBAR WITH RESPONSIVE TOGGLE
+    <!-- HAMBURGER NAVBAR WITH RESPONSIVE TOGGLE
     - NOTE: used the same navbar from above to start making hamburger example
-    ALSO: like the previous , hamberger only appears when screen size is medium-->
+    ALSO: like the previous , hamburger only appears when screen size is medium-->
     <div class="text-success">
-        Hamberger : RESPONSIVE NAVBAR
+        Hamburger : RESPONSIVE NAVBAR
     </div>
 
     <nav class="navbar navbar-expand-md navbar-light bg-light mb-5">
@@ -259,6 +259,65 @@
 
 
     <!-- NAVBAR WITH DROPDOWN -->
+    <!--NOTE: copied simple navbar to get this one started  -->
+    <!--PLaces dropdown on an li item instead of a button -->
+    <!--IMPORTANT: Need to include the bootstrap.js cdn / jQuerry-->
+
+    <div class="text-info">
+        NAVBAR WITH DROPDOWN
+    </div>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light mb-5">
+
+        <div class="container">
+            <!--container nested on navbar==> navbar spans the block: this means that the container div should sit the the right of navbar on the same block -->
+
+            <a href="#" class="navbar-brand">Navbar</a>
+
+            <!--navbar-nav: THIS IS THE ACTUAL NAVIGATION PANEL-->
+            <ul class="navbar-nav">
+
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+
+                <!--    -----   -----   -----   ----    -----   -----   -->
+
+
+                <!--START HERE for NAVBAR WITH DROPDOWN-->
+                <!--give it a class of dropdown-->
+
+                <li class="nav-item-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">This Link</a>
+
+                    <div class="dropdown-menu ">
+                        <a class="dropdown-item text-center">Link 1</a>
+                        <a class="dropdown-item text-center">Link 2</a>
+                        <a class="dropdown-item text-center">Link 3</a>
+                        <a class="dropdown-item text-center">Link 4</a>
+                    </div>
+                </li>
+
+                <!--    -----   -----   -----   ----    -----   -----   -->
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+
 
 
     <!-- COLORS -->
