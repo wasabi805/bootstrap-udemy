@@ -100,59 +100,62 @@
     <br>
 
     <!-- ALIGNMENT -->
-    <p>Text aligned left</p>
-    <p>Text aligned center</p>
-    <p>Text aligned right</p>
+    <p class="text-left">Text aligned left</p>
+    <p class="text-center">Text aligned center</p>
+    <p class="text-right">Text aligned right</p>
 
-    <!-- RESPONSIVE ALIGN -->
-    <p>Right aligned on small or larger</p>
-    <p>Right aligned on medium or larger</p>
-    <p>Right aligned on large or larger</p>
-    <p>Right aligned on xl or larger</p>
+    <!-- !!!!!! RESPONSIVE ALIGN ON PROPS ACCORDING TO SCREEN SIZE !!!-->
+    <p class="text-sm-right">Right aligned on small or larger</p>
+    <p class="text-md-right">Right aligned on medium or larger</p>
+    <p class="text-lg-right">Right aligned on large or larger</p>
+    <p class="text-xl-right">Right aligned on xl or larger</p>
 
-    <p>Left aligned text on small or larger</p>
-    <p>Left aligned text on medium or larger</p>
-    <p>Left aligned text on large or wider</p>
-    <p>Left aligned text on extra large or wider</p>
+    <p class="text-sm-left">Left aligned text on small or larger</p>
+    <p class="text-md-left">Left aligned text on medium or larger</p>
+    <p class="text-lg-left">Left aligned text on large or wider</p>
+    <p class="text-xl-left">Left aligned text on extra large or wider</p>
 
-    <p>Center aligned text on small or larger</p>
-    <p>Center aligned text on medium or larger</p>
-    <p>Center aligned text on large or wider</p>
-    <p>Center aligned text on extra large or wider</p>
+    <p class="text-sm-center">Center aligned text on small or larger</p>
+    <p class="text-md-center">Center aligned text on medium or larger</p>
+    <p class="text-lg-center">Center aligned text on large or wider</p>
+    <p class="text-xl-center">Center aligned text on extra large or wider</p>
 
     <br>
     <br>
 
     <!-- VERTICAL ALIGNMENT -->
-    <span>baseline</span>
-    <span>top</span>
-    <span>bottom</span>
-    <span>middle</span>
-    <span>text-top</span>
-    <span>text-bottom</span>
+    <span class="align-baseline">baseline</span>
+    <span class="align-top">top</span>
+    <span class="align-bottom">bottom</span>
+    <span class="align-center">middle</span>
+    <span class="align-text-top">text-top</span>
+    <span class="align-text-bottom">text-bottom</span>
 
     <br>
     <br>
 
     <!-- TURN BLOCK TO INLINE -->
-    <h1>Hello</h1>
-    <h1>Goodbye</h1>
+    <h1 class="bg-success">Hello</h1>
+    <!--IF SOMETHING IS A Block, it takes up the entire block: that's why it's all green-->
 
+    <h1 class="d-inline bg-success">Goodbye</h1>
+    <!--Notice now, that this h1 now sits in the block-->
+    <!-- d-inline also gives priority to the class it's used on-->
     <br>
     <br>
 
     <!-- TURN INLINE TO BLOCK -->
-    <span>Block</span>
-
+    <span class="bg-primary d-block">Block</span>
+    <!--spans by default are always inline elements: -->
     <br>
     <br>
 
     <!-- INLINE BLOCK -->
-    <div>
+    <div class="d-inline-block bg-warning">
       <h3>Hello</h3>
       This is inline
     </div>
-    <div>
+    <div class="d-inline-block bg-warning">
       <h3>Hello</h3>
       This is inline
     </div>
