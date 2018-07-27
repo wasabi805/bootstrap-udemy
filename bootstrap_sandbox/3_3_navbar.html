@@ -95,7 +95,11 @@
     <!--format: bg-light : actual bg color-->
     <!--NOTE: NONE of the navbar props below will take into effect untill we complete the rest of the class formatting-->
 
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <div class="text-primary">
+        SIMPLE RESPONSIVE NAVBAR
+    </div>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light mb-5">
 
         <div class="container">
             <!--container nested on navbar==> navbar spans the block: this means that the container div should sit the the right of navbar on the same block -->
@@ -123,7 +127,64 @@
         </div>
     </nav>
 
-    <!-- NAVBAR WITH RESPONSIVE TOGGLE -->
+
+
+                            <!--USE THIS!-->
+
+    <!-- HAMBERGER NAVBAR WITH RESPONSIVE TOGGLE
+    - NOTE: used the same navbar from above to start making hamburger example
+    ALSO: like the previous , hamberger only appears when screen size is medium-->
+    <div class="text-success">
+        Hamberger : RESPONSIVE NAVBAR
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light mb-5">
+
+        <div class="container">
+            <!--container nested on navbar==> navbar spans the block: this means that the container div should sit the the right of navbar on the same block -->
+            <a href="#" class="navbar-brand">Navbar</a>
+
+
+                            <!--!!!    TOGGLER     !!!-->
+            <!--PUT A BUTTON between the a tag and ul-->
+            <button
+                    class="navbar-toggler"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+            >
+                <!--data-target's val is any name you want to name it-->
+                <!--need to add this id to a DIV that WRAPS the UL class containing the a tags -->
+
+                <span class="navbar-toggler-icon"></span>
+                <!--Last, this span is here so we can give the toggler an icon-->
+
+            </button>
+
+
+            <!--navbar-nav: THIS IS THE ACTUAL NAVIGATION PANEL-->
+
+            <div id="navbarNav"
+                 class="collapse navbar-collapse">
+                <!--THe div: -->
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item" id="navbarNav">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
     <!-- NAVBAR WITH FORM -->
