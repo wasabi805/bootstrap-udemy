@@ -4,7 +4,7 @@
     <list default="true" id="074c0a1b-38ba-41ef-9888-2fe5691d4a96" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" afterPath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bootstrap_sandbox/3_2_buttons.html" afterPath="$PROJECT_DIR$/bootstrap_sandbox/3_2_buttons.html" />
+      <change beforePath="$PROJECT_DIR$/bootstrap_sandbox/3_3_navbar.html" afterPath="$PROJECT_DIR$/bootstrap_sandbox/3_3_navbar.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="3_2_buttons.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bootstrap_sandbox/3_2_buttons.html">
+      <file leaf-file-name="3_3_navbar.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bootstrap_sandbox/3_3_navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1256">
-              <caret line="286" column="18" lean-forward="true" selection-start-line="286" selection-start-column="18" selection-end-line="286" selection-end-column="18" />
+            <state relative-caret-position="285">
+              <caret line="102" column="51" lean-forward="false" selection-start-line="102" selection-start-column="51" selection-end-line="102" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -45,6 +45,7 @@
         <option value="$PROJECT_DIR$/bootstrap_sandbox/2_7_sizing.html" />
         <option value="$PROJECT_DIR$/bootstrap_sandbox/2_8_breakpoints.html" />
         <option value="$PROJECT_DIR$/bootstrap_sandbox/3_2_buttons.html" />
+        <option value="$PROJECT_DIR$/bootstrap_sandbox/3_3_navbar.html" />
       </list>
     </option>
   </component>
@@ -128,15 +129,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532653831596</updated>
-      <workItem from="1532653833504" duration="17451000" />
+      <workItem from="1532653833504" duration="19149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17451000" />
+    <option name="totallyTimeSpent" value="19149000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1121" y="-1080" width="1106" height="1080" extended-state="6" />
+    <frame x="-1121" y="-1080" width="1354" height="1080" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -148,7 +149,7 @@
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34349594" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Code comment" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21898496" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17759146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -252,8 +253,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap_sandbox/3_2_buttons.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1256">
+        <state relative-caret-position="1666">
           <caret line="286" column="18" lean-forward="true" selection-start-line="286" selection-start-column="18" selection-end-line="286" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap_sandbox/3_3_navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="102" column="51" lean-forward="false" selection-start-line="102" selection-start-column="51" selection-end-line="102" selection-end-column="51" />
           <folding />
         </state>
       </provider>

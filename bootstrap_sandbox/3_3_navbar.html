@@ -87,21 +87,37 @@
     <!--##################START HERE###################-->
 
     <!-- SIMPLE NAVBAR -->
-    <nav>
-        <div>
-            <a href="#">Navbar</a>
-            <ul>
-                <li>
-                    <a href="#">Home</a>
+
+    <!--navbar-expand-sm : WHEN do we want the navbar to kick-in-->
+    <!--for this exercise , this navbar will become vertical instead of horizontal -->
+
+    <!--format: navbar-light : makes the background will be lighter and text darker-->
+    <!--format: bg-light : actual bg color-->
+    <!--NOTE: NONE of the navbar props below will take into effect untill we complete the rest of the class formatting-->
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+
+        <div class="container">
+            <!--container nested on navbar==> navbar spans the block: this means that the container div should sit the the right of navbar on the same block -->
+
+            <a href="#" class="navbar-brand">Navbar</a>
+
+            <!--navbar-nav: THIS IS THE ACTUAL NAVIGATION PANEL-->
+            <ul class="navbar-nav">
+
+                <!--Each li needs class nav-item so they can be included into the ul above-->
+                <!--Each a tag needs class nav-link so they can be included into the ul above-->
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
                 </li>
-                <li>
-                    <a href="#">About</a>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
                 </li>
-                <li>
-                    <a href="#">Services</a>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Services</a>
                 </li>
-                <li>
-                    <a href="#">Contact</a>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
                 </li>
             </ul>
         </div>
