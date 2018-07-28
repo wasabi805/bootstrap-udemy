@@ -87,111 +87,217 @@
     <div class="container">
         <!--##################START HERE#####################-->
 
-        <!-- FORM -->
+        <div>
+            <h5 class="text-success">STANDARD FORMS</h5>
+        </div>
+
+        <!-- FORM : STANDARD FORM-->
         <form>
+
             <!-- TEXT FIELD GROUPS -->
-            <div>
+            <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Enter name">
+                <input class="form-control" type="text" id="name" placeholder="Enter name">
             </div>
-            <div>
+
+            <div class="form-group ">
                 <label for="email">Email address</label>
-                <input type="email" id="email" placeholder="Enter email">
+                <input class="form-control form-control-lg" type="email" id="email" placeholder="Enter email">
+                <small class="form-text text-muted">We wont sell your email and private data: this is rendered w/ small tag, form-text , text-muted></>
             </div>
-            <div>
+
+            <div class="text-info mb-3">NOTE: the email input is larger using :form-control-lg </div>
+
+            <div class="form-group">
                 <label for="company">Company</label>
-                <input type="text" id="company" placeholder="Enter company name">
+                <input class="form-control form-control-sm" type="text" id="company" placeholder="Enter company name">
             </div>
-            <div>
+
+            <div class="text-info mb-3">NOTE: the company input is smaller using :form-control-sm </div>
+
+            <div class="form-group mb-5">
                 <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Password">
+                <input class="form-control " type="password" id="password" placeholder="Password" readonly>
+                <small class="form-text text-muted"> You can't enter in this field because it has an atr of readonly</small>
             </div>
+
+
+
+            <!--    -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   ----    -----   -->
+
+
             <!-- SELECT -->
-            <div>
+            <div >
+                <h5 class="text-success">SELECT INPUTS</h5>
+            </div>
+
+            <div class="form-group mb-5">
                 <label for="gender">Gender</label>
-                <select id="gender">
+                <select id="gender" class="form-control">
                     <option>Male</option>
                     <option>Female</option>
                 </select>
             </div>
+
+
             <!-- TEXTAREA -->
-            <div>
-                <label for="message">Message</label>
-                <textarea id="message" rows="3"></textarea>
+            <div >
+                <h5 class="text-success">TEXT AREAS </h5>
             </div>
+            <div class="form-group mb-5">
+                <label for="message">Message</label>
+                <textarea id="message" rows="3" class="form-control"></textarea>
+            </div>
+
+
+            <!--    -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   ----    -----   -->
+
+
             <!-- FILE INPUT -->
             <div>
-                <label for="file">File input</label>
-                <input type="file" id="file">
-                <small id="fileHelp">Max 3mb size</small>
+                <h5 class="text-success">File Input </h5>
             </div>
+
+            <div class="form-group mb-5">
+                <label for="file">File input</label>
+                <input class="form-control-file" type="file" id="file">
+                <small id="fileHelp" class="form-text text-muted">Max 3mb size</small>
+            </div>
+
+
+
+                                <!--USE THIS!-->
             <!-- CUSTOM FILE INPUT -->
             <div>
-                <input type="file" id="myfile">
-                <label for="myfile">Choose file</label>
+                <h5 class="text-success">Custom File Input </h5>
+            </div>
+
+            <div class="custom-file">
+                <input type="file" id="myfile" class="custom-file-input" >
+                <label for="myfile" class="custom-file-label" >Choose file</label>
             </div>
             <br>
             <br>
-            <!-- RANGE -->
+
+
+            <!--    -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   ----    -----   -->
+            <!-- RANGE : MAKE A SLIDER-->
             <div>
-                <label for="membership">Membership Level</label>
-                <input type="range">
+                <h5 class="text-success">Range </h5>
             </div>
+            <div class="form-group">
+                <label for="membership">Membership Level</label>
 
+                <!--Range has attributes-->
+                <input
+                        type="range"
+                        class="custom-range"
+                        min="1"
+                        max="10"
+                        step="1"
+                        value="1"
+                >
+
+                <!--step = increment by, value= def-val-->
+            </div>
+            <!--    -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   ----    -----   -->
             <br>
 
-            <button type="submit">Submit</button>
+
+            <!-- SUBMIT BUTTON -->
+            <div>
+                <h5 class="text-success">Submit Button </h5>
+            </div>
+            <button type="submit" class="btn btn-secondary btn-block mb-5">Submit</button>
+
         </form>
 
+
+
+
         <br>
         <br>
 
-        <!-- INLINE FORM -->
-        <form>
-            <input type="text" id="username" placeholder="Enter username">
-            <input type="text" id="password" placeholder="Password">
-            <div>
-                <label>
-                    <input type="checkbox"> Remember me
+        <!-- INLINE FORM : Good for logins or where not a lot of data gets collected-->
+        <div>
+            <h5 class="text-success">Inline form inputs & Checkboxes </h5>
+        </div>
+
+        <form class="form-inline mb-5">
+
+            <input type="text" id="username" class="form-control mr-2" placeholder="Enter username">
+            <input type="text" id="password" class="form-control mr-2" placeholder="Password">
+
+            <!--    -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   ----    -----   -->
+
+
+            <!--CHECKBOXES -->
+
+            <div class="form-check">
+                <label class="form-check-label mr-2">
+
+                    <input type="checkbox" class="form-check-input"> Remember me
                 </label>
             </div>
 
-            <button type="submit">Submit</button>
+            <button class="btn btn-success" type="submit">Submit</button>
         </form>
 
         <br>
         <br>
 
         <!-- FORM ROW -->
+        <div>
+            <h5 class="text-success">Form Row </h5>
+        </div>
+
+        <!---->
         <form>
-            <div>
-                <div>
-                    <input type="text" placeholder="First name">
+            <!--one row, two cols-->
+            <div class="form-row">
+
+                <!--col 01-->
+                <div class="col">
+                    <input class="form-control" type="text" placeholder="First name">
                 </div>
-                <div>
-                    <input type="text" placeholder="Last name">
+
+                <!--col 02-->
+                <div class="col">
+                    <input class="form-control" type="text" placeholder="Last name">
                 </div>
+
             </div>
         </form>
 
         <br>
         <br>
 
+
+        <!--    -----   -----   -----   USE THIS!! - FORM VALIDATION   -----   -----   -----   -----   -----   ----   -->
+
+
         <!-- VALIDATION -->
         <div>
-            <label for="username">Username</label>
-            <input type="text" id="username">
+            <h5 class="text-success">Form Validations </h5>
         </div>
-        <div>
+
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" class="form-control is-valid">
+        </div>
+
+        <div class="form-group">
             <label for="password">Password</label>
-            <input type="text" id="password">
-            <div>
+            <input type="text" id="password" class="form-control is-invalid">
+
+            <div class="invalid-feedback">
                 Password not strong enough
             </div>
         </div>
-        <div>
+
+        <div class="form-group">
             <label for="password2">Confirm Password</label>
-            <input type="text" id="password2">
+            <input type="text" id="password2" class="form-control">
             <div>
                 Password does not match
             </div>
