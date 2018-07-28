@@ -96,7 +96,7 @@
     <!--NOTE: NONE of the navbar props below will take into effect untill we complete the rest of the class formatting-->
 
     <div class="text-primary">
-        SIMPLE RESPONSIVE NAVBAR
+        SIMPLE RESPONSIVE NAVBAR : reduce screen size to activate
     </div>
 
     <nav class="navbar navbar-expand-sm navbar-light bg-light mb-5">
@@ -135,7 +135,7 @@
     - NOTE: used the same navbar from above to start making hamburger example
     ALSO: like the previous , hamburger only appears when screen size is medium-->
     <div class="text-success">
-        Hamburger : RESPONSIVE NAVBAR
+        Hamburger : RESPONSIVE NAVBAR : reduce screen size to activate
     </div>
 
     <nav class="navbar navbar-expand-md navbar-light bg-light mb-5">
@@ -264,7 +264,7 @@
     <!--IMPORTANT: Need to include the bootstrap.js cdn / jQuerry-->
 
     <div class="text-info">
-        NAVBAR WITH DROPDOWN
+        NAVBAR WITH DROPDOWN : reduce screen size to activate
     </div>
 
     <nav class="navbar navbar-expand-sm navbar-light bg-light mb-5">
@@ -398,13 +398,28 @@
     <br>
     <br>
 
-    <!-- FIXED TOP -->
+                         <!-- FIXED TOP -->
+
+    <!--simply add a posistion of fixed-top-->
+    <!--<nav class="fixed-top navbar navbar-dark bg-dark ">-->
+        <!--<a href="#" class="navbar-brand">Navbar Fixed Top </a>-->
+    <!--</nav>-->
 
 
-    <!-- FIXED BOTTOM -->
+                        <!-- FIXED BOTTOM -->
+
+    <!--simply add a posistion of fixed-bottom-->
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Navbar Fixed Bottom </a>
+    </nav>
 
 
-    <!-- FIXED TOP -->
+                        <!-- STICKY-TOP -->
+    <!--simply add a posistion of sticky-top-->
+    <!--NOTE: had to comment out fixed top: if not, sticky wont know what the top is-->
+    <nav class="navbar sticky-top navbar-dark bg-danger">
+        <a href="#" class="navbar-brand">Sticky Top </a>
+    </nav>
 
 
     <br>
@@ -456,7 +471,7 @@
 
     </div>
     <!-- ./container -->
-    <div style="margin-top:500px;"></div>
+    <div style= "margin-top:1500px" ></div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
