@@ -398,6 +398,9 @@
     <br>
     <br>
 
+                        <!--Navbar Positions-->
+
+
                          <!-- FIXED TOP -->
 
     <!--simply add a posistion of fixed-top-->
@@ -418,36 +421,93 @@
     <!--simply add a posistion of sticky-top-->
     <!--NOTE: had to comment out fixed top: if not, sticky wont know what the top is-->
     <nav class="navbar sticky-top navbar-dark bg-danger">
-        <a href="#" class="navbar-brand">Sticky Top </a>
+        <a href="#" class="navbar-brand">Navbar: Sticky Top</a>
     </nav>
 
 
     <br>
     <br>
 
+    <!--    ------  -----   -----   -----   -----   -----   -----   -----   -----   -->
+
+
+
+                        <!--Navbar FORMATS-->
+
     <div class="container">
 
         <!-- NAVS -->
-        <ul>
-            <li>
-                <a href="#">Link 1</a>
+
+
+        <div class="text-warning mb-3">
+            <h5>FORMAT STANDARD : use of class='nav-pills</h5>
+        </div>
+
+        <!--START HERE: pills defaults links to render in a line vs a block-->
+        <ul class="nav nav-pills mb-5">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Link 1</a>
             </li>
-            <li>
-                <a href="#">Link 2</a>
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Link 2</a>
             </li>
-            <li>
-                <a href="#">Link 3</a>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Link 3</a>
             </li>
-            <li>
-                <a href="#">Link 4</a>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Link 4</a>
             </li>
         </ul>
 
 
-        <!-- HORIZONTAL ALIGN -->
+        <!-- HORIZONTAL ALIGN : JUSTIFY-->
+
+        <div class="text-warning mb-3">
+            <h5>FORMAT STANDARD : CENTER POSITION NAVBAR LINKS </h5>
+        </div>
+
+                            <!--USE THIS!!-->
+        <!--START HERE: CENTER THE POSITION OF NAVBAR LINKS : ADD EVEN left & right margins-->
+        <!--class='justify-content-center'-->
+        <ul class="nav nav-pills justify-content-center mb-5">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link active ">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Link 4</a>
+            </li>
+        </ul>
 
 
         <!-- RIGHT ALIGN -->
+
+        <div class="text-warning mb-3">
+            <h5>FORMAT STANDARD : RIGHT-HAND-SIDE POSITION NAVBAR LINKS </h5>
+        </div>
+
+                            <!--USE THIS!!-->
+        <!--START HERE: ALIGN RIGHT-HAND_SIDE POSITION OF NAVBAR LINKS  -->
+        <!--class='justify-content-end'-->
+        <ul class="nav nav-pills justify-content-end">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Link 4</a>
+            </li>
+        </ul>
 
 
         <br>
@@ -455,11 +515,55 @@
 
         <!-- VERTICAL -->
 
+        <div class="text-warning mb-3 ">
+            <h5>FORMAT STANDARD : VERTICAL POSITION NAVBAR LINKS </h5>
+        </div>
+
+                            <!--USE THIS!! : Good for mobile-->
+        <!--START HERE: STACK NAVBAR LINKS IN A COLUMN -->
+        <!--class='flex-column'-->
+        <ul class="nav nav-pills flex-column mb-5">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Link 4</a>
+            </li>
+        </ul>
 
         <br>
         <br>
 
-        <!-- FILL & JUSTIFY -->
+        <!-- FILL & JUSTIFY : make buttons unif -->
+
+        <div class="text-warning mb-3">
+           <h5>FORMAT STANDARD : FILL & JUSTIFY '</h5>
+        </div>
+
+
+        <!--USE THIS!! : Good for mobile-->
+        <!--START HERE:   -->
+        <!--class='nav-fill' NOTE: fill can't be tacked onto nav-pills-->
+        <ul class="nav nav-pills nav-fill mb-5">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Link 2</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Link 3</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Link 4</a>
+            </li>
+        </ul>
 
 
         <br>
