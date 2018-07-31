@@ -4,7 +4,7 @@
     <list default="true" id="074c0a1b-38ba-41ef-9888-2fe5691d4a96" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" afterPath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bootstrap_sandbox/3_7_alerts_progress.html" afterPath="$PROJECT_DIR$/bootstrap_sandbox/3_7_alerts_progress.html" />
+      <change beforePath="$PROJECT_DIR$/bootstrap_sandbox/3_8_tables_pagination.html" afterPath="$PROJECT_DIR$/bootstrap_sandbox/3_8_tables_pagination.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3_7_alerts_progress.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="3_7_alerts_progress.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap_sandbox/3_7_alerts_progress.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="194" column="36" lean-forward="true" selection-start-line="194" selection-start-column="36" selection-end-line="194" selection-end-column="36" />
+            <state relative-caret-position="127">
+              <caret line="151" column="100" lean-forward="false" selection-start-line="151" selection-start-column="97" selection-end-line="151" selection-end-column="100" />
               <folding>
                 <element signature="e#7167#7174#1" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#17;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -44,6 +44,19 @@
                 <element signature="n#style#0;n#div#0;n#div#31;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#31;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#31;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3_8_tables_pagination.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bootstrap_sandbox/3_8_tables_pagination.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="569" column="50" lean-forward="true" selection-start-line="569" selection-start-column="50" selection-end-line="569" selection-end-column="50" />
+              <folding>
+                <element signature="e#25967#25974#0" expanded="true" />
+                <element signature="e#26799#26806#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,6 +100,7 @@
       <find>ham</find>
       <find>remem</find>
       <find>block</find>
+      <find>svg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,6 +126,7 @@
         <option value="$PROJECT_DIR$/side-practice/side-practice.css" />
         <option value="$PROJECT_DIR$/bootstrap_sandbox/3_6_input_groups.html" />
         <option value="$PROJECT_DIR$/bootstrap_sandbox/3_7_alerts_progress.html" />
+        <option value="$PROJECT_DIR$/bootstrap_sandbox/3_8_tables_pagination.html" />
       </list>
     </option>
   </component>
@@ -201,16 +216,15 @@
       <option name="presentableId" value="Default" />
       <updated>1532653831596</updated>
       <workItem from="1532653833504" duration="41680000" />
-      <workItem from="1532981006900" duration="7173000" />
+      <workItem from="1532981006900" duration="12373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48853000" />
+    <option name="totallyTimeSpent" value="54053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1121" y="-1080" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -219,7 +233,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30792683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28455284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Code comment" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15548456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -281,8 +295,8 @@
         <state relative-caret-position="3097">
           <caret line="163" column="88" lean-forward="false" selection-start-line="163" selection-start-column="23" selection-end-line="163" selection-end-column="88" />
           <folding>
-            <element signature="n#style#0;n#h6#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h7#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h7#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -316,7 +330,7 @@
         <state relative-caret-position="3553">
           <caret line="187" column="10" lean-forward="false" selection-start-line="140" selection-start-column="4" selection-end-line="187" selection-end-column="10" />
           <folding>
-            <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -379,7 +393,7 @@
         <state relative-caret-position="3553">
           <caret line="187" column="10" lean-forward="false" selection-start-line="140" selection-start-column="4" selection-end-line="187" selection-end-column="10" />
           <folding>
-            <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -420,8 +434,8 @@
         <state relative-caret-position="19">
           <caret line="163" column="88" lean-forward="false" selection-start-line="163" selection-start-column="23" selection-end-line="163" selection-end-column="88" />
           <folding>
-            <element signature="n#style#0;n#h6#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h7#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h7#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -462,8 +476,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap_sandbox/3_7_alerts_progress.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="194" column="36" lean-forward="true" selection-start-line="194" selection-start-column="36" selection-end-line="194" selection-end-column="36" />
+        <state relative-caret-position="127">
+          <caret line="151" column="100" lean-forward="false" selection-start-line="151" selection-start-column="97" selection-end-line="151" selection-end-column="100" />
           <folding>
             <element signature="e#7167#7174#1" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#17;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -475,6 +489,17 @@
             <element signature="n#style#0;n#div#0;n#div#31;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#31;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#31;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap_sandbox/3_8_tables_pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="569" column="50" lean-forward="true" selection-start-line="569" selection-start-column="50" selection-end-line="569" selection-end-column="50" />
+          <folding>
+            <element signature="e#25967#25974#0" expanded="true" />
+            <element signature="e#26799#26806#0" expanded="true" />
           </folding>
         </state>
       </provider>
