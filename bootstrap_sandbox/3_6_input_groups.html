@@ -88,88 +88,192 @@
         <!--####################START HERE#####################-->
 
         <!-- BASIC INPUT GROUPS -->
-        <div>
-            <div>
-                <span>@</span>
+        <div class="text-success">
+            <h5>Basic Input Group : Prepend</h5>
+        </div>
+
+                            <!--USE THIS! Good use w/ font awesome -->
+        <!--input-group-prepend-->
+        <!--Here, we want the @ sym to be attached to this input group : wrap around span w/ span class='input-group-text'-->
+
+
+        <!--Prepend an icon to form input-->
+        <div class="input-group">
+
+            <div class="input-group-prepend">
+                <span class='input-group-text'>@</span> <!-- wraps contents of span with a -->
             </div>
-            <input type="text" placeholder="Username">
+            <input class='form-control' type="text" placeholder="Username">
+
+        </div>
+
+        <div class="mb-5">
+            <small class="text-info">
+                Above is an example where we can wrap anything to give it it's own box with bg & border before an input
+            </small>
+        </div>
+
+
+
+        <!--Append an icon to form input-->
+        <div class="text-success">
+            <h5>Basic Input Group : Append</h5>
+        </div>
+
+
+        <div class="input-group-append">
+
+            <input class="form-control" type="text" placeholder="Username">
+            <div class="input-group-append">
+                <span class="input-group-text">@something.com</span>
+            </div>
+        </div>
+
+        <div class="mb-5">
+            <small class="text-info">
+                Same as the example above, now we're just appending
+            </small>
+        </div>
+
+
+
+        <!--    -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -->
+        <br>
+
+
+
+        <!--Custom URL's-->
+
+        <div class="text-success">
+            <h5>Basic Input Group : Cusom URL</h5>
+        </div>
+
+        <div class="input-group mb-5">
+
+            <div class="input-group-prepend">
+                <span class="input-group-text">https://google.com</span>
+            </div>
+
+            <input class='form-control' type="text">
         </div>
 
         <br>
 
-        <div>
-            <input type="text" placeholder="Username">
-            <div>
-                <span>@something.com</span>
+
+                            <!--USE THIS! : Good for money inputs-->
+        <!--Prepend & Append-->
+
+        <div class="text-success">
+            <h5>Basic Input Group : Prepend && Append : Good for things like currency</h5>
+        </div>
+
+        <div class="input-group mb-5">
+
+            <div class="input-group-append">
+                <span class="input-group-text">$</span>
             </div>
+
+            <input class="form-control" type="text">
+
+            <div class="input-group-append">
+                <span class="input-group-text">.00</span>
+            </div>
+
         </div>
 
         <br>
+        <!--    -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -->
 
-        <label for="basic-url">Custom URL</label>
-        <div>
-            <div>
-                <span>https://something.com/member/</span>
-            </div>
-            <input type="text">
-        </div>
 
-        <br>
-
-        <div>
-            <div>
-                <span>$</span>
-            </div>
-            <input type="text">
-            <div>
-                <span>.00</span>
-            </div>
-        </div>
-
-        <br>
 
         <!-- CHECKBOX -->
-        <div>
-            <div>
-                <div>
+        <div class="text-success">
+            <h5>Basic Input Group : Prepend a checkbox</h5>
+        </div>
+
+        <div class="input-group mb-5">
+
+            <div class="input-group-prepend">
+                <div class="input-group-text">
                     <input type="checkbox">
                 </div>
             </div>
-            <input type="text">
+
+            <input class="form-control" type="text">
         </div>
 
         <br>
 
+
+
         <!-- RADIO -->
-        <div>
-            <div>
-                <div>
+        <div class="text-success">
+            <h5>Basic Input Group : Prepend a radio</h5>
+        </div>
+
+        <div class="input-group mb-5">
+
+            <div class="input-group-prepend">
+                <div class="input-group-text">
                     <input type="radio">
                 </div>
             </div>
-            <input type="text">
+
+            <input class="form-control" type="text">
         </div>
 
         <br>
+
+
 
         <!-- MULTIPLE INPUTS -->
-        <div>
-            <div>
-                <span id="">Name & Email</span>
-            </div>
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email">
+        <div class="text-success">
+            <h5>Basic Input Group : Prepend multiple inputs</h5>
         </div>
+
+        <div class="input-group">
+
+            <div class="input-group-prepend">
+                <span id="" class="input-group-text">Name & Email</span>
+            </div>
+
+            <input class="form-control" type="text" placeholder="Full Name">
+            <input class="form-control" type="email" placeholder="Email">
+        </div>
+
+        <div class="mb-5">
+            <small class="text-info">
+                Place multiple inputs into one prepend
+            </small>
+        </div>
+
 
         <br>
 
+
+                            <!--USE THIS! : Useful  for search-boxes-->
         <!-- BUTTON ADDONS -->
-        <div>
-            <input type="text" placeholder="Find By Name...">
-            <div>
-                <button type="button">Search</button>
+        <div class="text-success">
+            <h5>Basic Input Group : Button Add-ons : Format the search button</h5>
+        </div>
+
+
+        <div class="input-group">
+
+            <input class="form-control" type="text" placeholder="Find By Name...">
+
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">Search</button>
             </div>
         </div>
+
+        <div class="text-info mb-5">
+            <small>
+                outlines the button and give it  an 'onHover'effect
+            </small>
+        </div>
+
+
 
     </div>
     <!-- ./container -->
