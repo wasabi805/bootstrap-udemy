@@ -86,104 +86,248 @@
     </header>
 
     <div class="container">
+        <div class="text-info mb-4">
+            <h4>NOTE: These are great for displaying a dynamic response to the user after a form submit</h4>
+        </div>
+
+
         <!--####################START HERE######################-->
 
         <!-- ALERTS -->
-        <div>
-            <strong>Primary</strong> Blog post added
+        <!--similar to buttons-->
+        <div class="mb-3">
+            <h5 class="text-success">Create an Alert && a bg color to an alert</h5>
+
+            <div class="alert alert-primary">
+                <strong>Primary</strong> Blog post added
+            </div>
         </div>
 
-        <div>
+
+        <div class="alert alert-secondary mb-3">
             <strong>Secondary</strong> Blog post added
         </div>
 
-        <div>
+        <div class="alert alert-success mb-3">
             <strong>Success</strong> Blog post added
         </div>
 
-        <div>
+        <div class="alert alert-danger mb-3">
             <strong>Danger</strong> Please check the log files
         </div>
 
-        <div>
+        <div class="alert alert-info mb-3">
             <strong>Info</strong> You have a new message
         </div>
 
-        <div>
+        <div class="alert alert-warning mb-3">
             <strong>Warning</strong> Please check the log files
         </div>
 
-        <div>
+        <div class="alert alert-light mb-3">
             <strong>Light</strong> Please check the log files
         </div>
 
-        <div>
+        <div class="alert alert-dark mb-5">
             <strong>Dark</strong> Please check the log files
         </div>
 
+        <!--    -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -->
+
+
+                            <!--USE THIS: Toggles an alert-->
+
+
+
+        <div class="text-success">
+            <h5>
+                Dismissible Alerts
+            </h5>
+        </div>
 
         <!-- DISMISSABLE ALERT -->
-        <div>
-            <button type="button">
-                <span>&times;</span>
+        <div class="alert alert-success alert-dismissible">             <!-- A.) need the alert class='alert-dismissible'-->
+
+            <button class="close" data-dismiss="alert" type="button">        <!-- B.) need the btn class='close':needed to toggle && data-dismiss="alert"-->
+                <span>&times;</span>                                            <!--C.) &time -> svg x button-->
             </button>
             <strong>Dismissable</strong> Blog post added
         </div>
 
-        <!-- EXTRA CONTENT -->
-        <div>
-            <h4>Congrats!</h4>
+        <div class="text-info mb-5">
+            <small>User can 'X' out : alert-dismissible, button class="close" data-dismiss="alert"</small>
+        </div>
+
+
+        <!--    -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -->
+
+
+                            <!--USE THIS!-->
+
+
+        <!-- EXTRA CONTENT : Give text formatting to alert msg-->
+        <div class="text-success">
+            <h5>
+                EXTRA CONTENT : Format the msg
+            </h5>
+        </div>
+
+
+        <div class="alert alert-success">
+
+            <h4 class="alert-heading">Congrats!</h4>
+
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos eius, sit quo assumenda totam commodi
                 ipsum saepe molestias eligendi exercitationem repudiandae qui facilis deserunt non, harum ab quam? Cumque</p>
             <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, odio?</p>
+
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, odio?</p>
+        </div>
+
+        <div class="text-info mb-5">
+            <small>This allows you to format the text insdie the alert</small>
         </div>
 
         <br>
         <br>
+
+
+        <div class="text-info mb-4">
+            <h4>Progress Bars</h4>
+        </div>
+
+
+        <!--    -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -->
+
 
         <!-- PROGRESS BARS -->
-        <div>
-            <div></div>
+
+        <div class="text-success">
+            <h5>
+                Make a standard progress bar
+            </h5>
+        </div>
+
+        <!-- PROGRESS BARS -->
+        <div class="progress mb-3">
+            <div class="progress-bar" style="width: 35% "> <!--Note: class='progress-bar' won't render anything unless a width is defined for the div-->
+                35%
+            </div>
         </div>
         <br>
-        <div>
-            <div></div>
+
+
+
+        <!-- PROGRESS BARS : change the color-->
+        <div class="text-success">
+            <h5>
+                Change the color of progress bar : Use bg-myColor
+            </h5>
         </div>
-        <br>
-        <div>
-            <div></div>
+
+
+        <div class="progress">
+            <div class="progress-bar bg-info" style="width: 55% "> <!--Note: class='progress-bar' won't render anything unless a width is defined for the div-->
+                55%
+            </div>
         </div>
-        <br>
-        <div>
-            <div></div>
+
+        <div class="text-info mb-3">
+            <small>Note: if you add a bg-myColor to the class='progress-bar', 'the uncompleted' will get the bg color  </small>
         </div>
-        <br>
-        <div>
-            <div></div>
-        </div>
-        <br>
+
+
         <!-- HEIGHT -->
-        <div>
-            <div></div>
+
+        <div class="text-success">
+            <h5>
+                Change the height of progress bar
+            </h5>
+        </div>
+
+        <div class="progress" style="height: 5px">
+            <div class="progress-bar bg-warning" style="width: 75% ">
+                75%
+            </div>
+        </div>
+
+        <div class="text-info mb-3">
+            <small>Note: if you add a bg-myColor to the class='progress-bar', 'the uncompleted' will get the bg color  </small>
         </div>
         <br>
+
+
+
+
         <!-- STRIPED -->
-        <div>
-            <div></div>
+        <div class="text-success">
+            <h5>
+                Give progress bar a striped look
+            </h5>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar bg-danger progress-bar-striped" style="width: 42% ">
+                42%
+            </div>
+        </div>
+
+        <div class="text-info mb-3">
+            <small>class='progress-bar-striped' </small>
         </div>
         <br>
-        <!-- ANIMATED -->
-        <div>
-            <div></div>
+
+
+
+                            <!--USE THIS!-->
+
+
+        <!-- ANIMATED Progress bar background -->
+        <div class="text-success">
+            <h5>
+                Animate the bar's background
+            </h5>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width: 42% ">
+                42%
+            </div>
+        </div>
+
+        <div class="text-info mb-3">
+            <small>class='progress-bar-animated' </small>
         </div>
         <br>
+
+
+
         <!-- MULTIPLE BARS -->
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
+        <div class="text-success">
+            <h5>
+                Multiple status on one bar
+            </h5>
         </div>
+
+
+        <div class="progress">
+            <div class="progress-bar bg-success" style="width: 20% ">
+                20%
+            </div>
+
+            <div class="progress-bar bg-info" style="width: 40% ">
+                40%
+            </div>
+
+            <div class="progress-bar bg-primary" style="width: 30% ">
+                30%
+            </div>
+        </div>
+
+        <div class="text-info mb-3">
+            <small>Note: each bar should take up it's percentage of space in regards to the single bar they all sit in </small>
+        </div>
+        <br>
 
     </div>
     <!-- ./container -->
