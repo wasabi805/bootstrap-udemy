@@ -87,10 +87,18 @@
     <div class="container">
         <!--#####################START HERE######################-->
 
+        <div class="text-success"><h3 class="mb-0">MEDIA OBJECT</h3></div>
+        <div class="mb-4"><small class="text-muted"> NOTE: div class='media' : default displays as flex item && starts the flex alignment to the left</small></div>
+        <!--NOTE: Media will float imgs to the left-->
+        <!--defaults-< display:flex, align-items:flex-start ,<--align items to the start -->
+
+
         <!-- MEDIA OBJECT -->
-        <div>
-            <img src="https://source.unsplash.com/random/90x90">
-            <div>
+        <div class="media mb-3">
+            <img class="mr-3 mt-3" src="https://source.unsplash.com/random/90x90">
+
+
+            <div class="media-body">
                 <h5>Media heading</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
                 vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
@@ -98,39 +106,65 @@
             </div>
         </div>
 
+        <div class=""><small class="text-info">*NOTE:</small></div>
+        <div class="ml-1"><small class="text-info">div class="container</small></div>
+        <div class="ml-3"><small class="text-info">img class="mr-3 mt-3"</small></div>
+        <div class="ml-5 mb-3"><small class="text-info">div class="media-body"</small></div>
+
         <br>
         <br>
+        <!--    -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -->
+
+
+
+        <div class="text-success mb-3"><h3>NESTING MEDIA OBJECTS</h3></div>
 
         <!-- NESTING MEDIA OBJECTS -->
-        <div>
-            <img src="https://source.unsplash.com/random/90x91">
-            <div>
+        <div class="media">
+
+            <img class="mr-3" src="https://source.unsplash.com/random/90x91">
+
+            <div class="media-body">
                 <h5>Media heading</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
                 vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
                 felis in faucibus.
 
-                <div>
-                    <a href="#">
+                <!--This is the nested div-->
+                <!--give this thing a margin-top-->
+                <div class="media mt-4">
+                    <a class="pr-3" href="#">
                         <img src="https://source.unsplash.com/random/90x92">
                     </a>
-                    <div>
-                        <h5>Nested Media</h5>
+
+                    <div class="media-body">
+                        <h5 >Nested Media</h5>
                         Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
                         vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
                         congue felis in faucibus.
                     </div>
                 </div>
+
             </div>
         </div>
 
         <br>
         <br>
+        <!--    -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -->
 
+                                             <!-- TOP ALIGNED (DEFAULT) -->
+                                                    <!--USE THIS!-->
+
+
+        <div class="text-success"><h3 class="mb-0">TOP ALIGNED (DEFAULT)</h3></div>
+        <div class="text-muted mb-3"><small> align to upper most left of div</small></div>
         <!-- TOP ALIGNED (DEFAULT) -->
-        <div>
-            <img src="https://source.unsplash.com/random/90x93">
-            <div>
+        <div class="media">
+
+            <!--ALIGN-SELF-START : remember, media defaults to flex, this will align the img to the top of div class='media'-->
+            <img class="align-self-start mr-3" src="https://source.unsplash.com/random/90x93">
+
+            <div class="media-body">
                 <h5>Top aligned media</h5>
                 <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
                     vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
@@ -140,11 +174,18 @@
 
         <br>
         <br>
+        <!--    -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -->
 
+                                                <!-- CENTER ALIGNED -->
+                                                    <!--USE THIS!-->
+
+
+        <div class="text-success mb-3"><h3>CENTER ALIGNED</h3></div>
         <!-- CENTER ALIGNED -->
-        <div>
-            <img src="https://source.unsplash.com/random/90x94">
-            <div>
+        <div class="media">
+            <img class="align-self-center mr-3" src="https://source.unsplash.com/random/90x94">
+
+            <div class="media-body">
                 <h5>Center aligned media</h5>
                 <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
                     vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
@@ -155,10 +196,16 @@
         <br>
         <br>
 
+
+        <!--    -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -->
+
+                                                <!-- BOTTOM ALIGNED -->
+
+        <div class="text-success mb-3"><h3>BOTTOM ALIGNED/ End</h3></div>
         <!-- BOTTOM ALIGNED -->
-        <div>
-            <img src="https://source.unsplash.com/random/90x95">
-            <div>
+        <div class="media">
+            <img class="align-self-end mr-3" src="https://source.unsplash.com/random/90x95">
+            <div class="media-body">
                 <h5>Bottom aligned media</h5>
                 <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
                     vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
@@ -169,29 +216,48 @@
         <br>
         <br>
 
-        <!-- MEDIA LIST -->
-        <ul>
-            <li>
-                <img src="https://source.unsplash.com/random/90x96">
-                <div>
+
+        <!--    -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -----   -->
+
+
+
+
+
+        <div class="text-success"><h3 class="mb-0">MEDIA LIST</h3></div>
+        <div class="text-muted mb-3"><small> Media objs inside a list</small></div>
+
+
+        <!--MEDIA LIST-->
+
+        <!--UNSTYLED LIST-->
+        <ul class="list-unstyled">
+
+            <!--nested 01-->
+            <li class="media">
+                <img class="mr-4" src="https://source.unsplash.com/random/90x96">
+                <div class="media-body mb-3">
                     <h5>List based media object</h5>
                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
                     vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
                     congue felis in faucibus.
                 </div>
             </li>
-            <li>
-                <img src="https://source.unsplash.com/random/90x97">
-                <div>
+
+            <!--nested 02-->
+            <li class="media">
+                <img class="mr-4" src="https://source.unsplash.com/random/90x97">
+                <div class="media-body mb-3">
                     <h5>List based media object</h5>
                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
                     vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
                     congue felis in faucibus.
                 </div>
             </li>
-            <li>
-                <img src="https://source.unsplash.com/random/90x98">
-                <div>
+
+            <!--nested 03-->
+            <li class="media">
+                <img class="mr-4" src="https://source.unsplash.com/random/90x98">
+                <div class="media-body mb-3">
                     <h5>List based media object</h5>
                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
                     vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
@@ -199,6 +265,8 @@
                 </div>
             </li>
         </ul>
+
+        <div class=""><small class="text-info"> ul class='list-unstyled' && li class='media'</small></div>
 
     </div>
     <!-- ./container -->
