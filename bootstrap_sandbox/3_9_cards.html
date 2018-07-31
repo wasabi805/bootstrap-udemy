@@ -84,192 +84,325 @@
         <hr>
     </header>
 
+    <div class="mb-5 border-bottom">
+        <h2 class="text-primary ml-5">Cards</h2>
+        <small class="text-info ml-5">Defaults: position:relative, display: flex</small>
+    </div>
+
+    <br/>
+
     <div class="container">
         <!--#####################START HERE#####################-->
 
+        <div class="text-success mb-3">
+            <h3>
+                Basic Card
+            </h3>
+        </div>
+
+
         <!-- BLOCK -->
-        <div>
-            <div>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, voluptate.
+
+        <div class="card"> <!--card class is just a box that has default border && padding -->
+            <div class="card-body"> <!--card-body adds a display f flex with some default padding-->
+                I am text content coming for a nested div of class of card-body
             </div>
         </div>
 
         <br>
         <br>
+
+        <!--    -----   -----   -----   -----   -----   -----   -----   ----    -----   -----   ----    -----   -->
+
+
+
+        <div class="text-success mb-3"><h3>Simple Card format</h3></div>
 
         <!-- SIMPLE CARD -->
-        <div>
-            <div>
-                <h4>Card Title</h4>
-                <h6>Card subtitle</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
-                <a href="#">Read More</a>
+        <!--added width so cards don't extend past the page-->
+
+        <div class="card" style="width: 20rem">
+            <div class="card-body">
+
+                <h4 class="card-title">This is a Card Title</h4>
+                <h6 class="card-subtitle text-muted">Card subtitle</h6>
+
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+                <a class='btn btn-outline-primary' href="#">Read More</a>
             </div>
         </div>
 
+
+        <div class="text-info mb-1"><small> *NOTE : format is...</small></div>
+        <div class="text-info"><small>div class="card</small></div>
+        <div class="text-info ml-3"><small>div class="card-body"</small></div>
+        <div class="text-info ml-5 "><small>h4 class="card-title"</small></div>
+        <div class="text-info ml-5 "><small>h6 class="card-subtitle text-muted"</small></div>
+        <div class="text-info ml-5 "><small>p class="card-text"</small></div>
+        <div class="text-info ml-5 mb-3"><small>class='btn btn-outline-primary'</small></div>
+
         <br>
         <br>
 
+        <!--    -----   -----   -----   -----   -----   -----   -----   ----    -----   -----   ----    -----   -->
+
+
+        <div class="text-success mb-3"><h3>Card w/ Image</h3></div>
+
+
+                            <!--USE THIS! Good for sections && || tiles-->
         <!-- CARD WITH IMAGE -->
-        <div>
-            <img src="https://source.unsplash.com/random/300x200" alt="">
-            <div>
-                <h4>Card Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
-                <a href="#">Read More</a>
+        <div class="card">
+
+            <!--THE IMG : IMPORTANT : IMG Has to come before the card body-->
+            <img class="card-img-top" src="https://source.unsplash.com/random/300x200" alt="">
+
+            <!--THE card-body-->
+            <div class="card-body">
+
+                <h4 class="card-title">Card Title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+                <a class="btn btn-outline-success btn-block" href="#">Read More</a>
             </div>
         </div>
 
+        <div class="text-info mb-5"><small> *NOTE img class='card-img' has to come BEFORE class='cardbody' to be included inside the card</small></div>
+
         <br>
         <br>
+
+
+
+        <div class="text-success mb-3"><h3>Card with a HEADER</h3></div>
 
         <!-- CARD WITH HEADER -->
-        <div>
-            <div>
-                My Card
+        <div class="card">
+
+            <!--Will give a light-colored background color-->
+            <div class="card-header">
+                My Card Heading
             </div>
-            <div>
-                <h4>Card Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
-                <a href="#">Read More</a>
+
+            <div class="card-body">
+                <h4 class="card-title">Card Title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+
+                <a class="btn btn-primary" href="#">Read More</a>
             </div>
+        </div>
+
+        <div class="text-info mb-3">
+            <small>
+                *NOTE : div class="card-header"
+            </small>
         </div>
 
         <br>
         <br>
+        <!--    -----   -----   -----   -----   -----   -----   -----   ----    -----   -----   ----    -----   -->
+
+        <div class="text-success mb-3"><h3>HEADER, FOOTER, CENTERED</h3></div>
+
+
+                            <!--USE THIS!-->
 
         <!-- HEADER, FOOTER, CENTERED -->
-        <div>
-            <div>
-                My Card
+
+
+        <div class="card text-center">
+            <div class="card-header">
+                My Card Header
             </div>
-            <div>
-                <h4>Card Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
-                <a href="#">Read More</a>
+
+            <div class="card-body">
+                <h4 class="card-title">Card Title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+                <a class="btn btn-primary" href="#">Read More</a>
             </div>
-            <div>
+
+            <div class="card-footer text-muted">
                 2 Days Ago
             </div>
         </div>
 
-        <br>
-        <br>
-
-        <!-- CARD WITH NAV -->
-        <div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="#">Active</a>
-                    </li>
-                    <li>
-                        <a href="#">Link</a>
-                    </li>
-                    <li>
-                        <a href="#">Disabled</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h4>Card Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
-                <a href="#">Read More</a>
-            </div>
+        <div class="text-info mb-3">
+            <small>
+                *NOTE : class="card text-center" && class="card-footer text-muted"
+            </small>
         </div>
 
         <br>
         <br>
+        <!--    -----   -----   -----   -----   -----   -----   -----   ----    -----   -----   ----    -----   -->
 
+
+                            <!--USE THIS!-->
+
+        <div class="text-success mb-3"><h3>CARD WITH NAV</h3></div>
+
+        <!-- CARD WITH NAV -->
+
+        <div class="card">
+
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Active</a>
+                    </li>
+                    <li class="nav-item"  >
+                        <a class="nav-link active" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="card-body">
+                <h4 class="card-title">Card Title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+                <a class="btn btn-success" href="#">Read More</a>
+            </div>
+
+        </div>
+
+        <div class="text-info "><small>*NOTE: </small></div>
+        <div class="text-info "><small>div class="card-header""</small></div>
+        <div class="text-info ml-1"><small>ul class="nav nav-tabs card-header-tabs</small></div>
+        <div class="text-info ml-3 mb-3"><small>li class="nav-item"</small></div>
+
+
+        <br>
+        <br>
+        <!--    -----   -----   -----   -----   -----   -----   -----   ----    -----   -----   ----    -----   -->
+
+        <div class="text-success mb-3"><h3>IMAGE OVERLAYS : Set img as bg</h3></div>
+
+
+
+                            <!--USE THIS! : Good for crad/section/tiles-->
         <!-- IMAGE OVERLAYS -->
-        <div>
-            <img src="https://source.unsplash.com/random/1000x300" alt="">
-            <div>
-                <h4>Card title</h4>
-                <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content
+        <div class="card">
+
+            <img class="card-img" src="https://source.unsplash.com/random/1000x300" alt="">
+
+            <div class="card-img-overlay">
+                <h4 class="card-title text-white">Card title</h4>
+                <p class="card-text text-light">This is a wider card with supporting text below as a natural lead-in to additional content. This content
                     is a little bit longer.</p>
-                <p>
-                    <small>Last updated 3 mins ago</small>
+                <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
                 </p>
             </div>
         </div>
 
 
+        <div class="text-info"><small>*NOTE : These are children inside div class='card'...</small></div>
+        <div class="text-info"><small>Same Deal, img has to come before card-body</small></div>
+        <div class="text-info mb-3"><small>img class="card-img", div class="card-img-overlay"</small></div>
+
         <br>
         <br>
+        <!--    -----   -----   -----   -----   -----   -----   -----   ----    -----   -----   ----    -----   -->
+
+
+        <div class="text-success mb-3"><h3>BACKGROUND COLOR</h3></div>
+
+
 
         <!-- BACKGROUND COLOR -->
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Primary card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card">
+            <div class="card-header">Header</div>
+            <div class="card-body bg-primary text-white">
+                <h4 class="card-title">Primary card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Secondary card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card">
+            <div class="card-header">Header</div>
+            <div class="card-body bg-secondary text-white">
+                <h4 class="card-title">Secondary card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Success card title</h4>
-                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="card">
+            <div class="card-header">Header</div>
+            <div class="card-body bg-success text-white">
+                <h4 class="card-title">Success card title</h4>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Danger card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card">
+            <div class="card-header">Header</div>
+            <div class="card-body bg-danger text-white">
+                <h4 class="card-title">Danger card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Warning card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card">
+            <div class="card-header">Header</div>
+            <div class="card-body bg-warning text-white">
+                <h4 class="card-title">Warning card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Info card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card">
+            <div class="card-header">Header</div>
+            <div class="card-body bg-info text-white">
+                <h4 class="card-title">Info card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Light card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card">
+            <div class="card-header">Header</div>
+            <div class="card-body bg-light">
+                <h4 class="card-title">Light card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Dark card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+
+
+        <div class="card">
+            <div class="card-header">Header</div>
+            <div class="card-body bg-dark text-white">
+                <h4 class="card-title">Dark card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
+        </div>
+
+        <div class="text-info mb-3">
+            <small>
+                *NOTE :
+            </small>
         </div>
 
         <br>
         <br>
+        <!--    -----   -----   -----   -----   -----   -----   -----   ----    -----   -----   ----    -----   -->
+
+
+
+        <div class="text-success mb-3"><h3>CARD OUTLINE</h3></div>
 
         <!-- CARD OUTLINE -->
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Primary card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card border-primary bg-info text-white">
+            <div class="card-header bg-light text-dark">Header</div>
+
+            <div class="card-body">
+                <h4 class="card-header bg-light text-dark">Primary card title</h4>
+                <p class="car-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
+        </div>
+
+        <div class="text-info mb-3">
+            <small>
+                *NOTE :border is now blue: div class="card border-primary : copy this one for the rest of the examples"
+            </small>
         </div>
 
         <div>
@@ -327,8 +460,17 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
+        <div class="text-info mb-3">
+            <small>
+                *NOTE : format is...
+            </small>
+        </div>
+
         <br>
         <br>
+        <!--    -----   -----   -----   -----   -----   -----   -----   ----    -----   -----   ----    -----   -->
+
+        <div class="text-success mb-3"><h3>CARD GROUP</h3></div>
 
         <!-- CARD GROUP -->
         <div>
@@ -353,8 +495,17 @@
         </div>
 
 
+        <div class="text-info mb-3">
+            <small>
+                *NOTE : format is...
+            </small>
+        </div>
+
         <br>
         <br>
+        <!--    -----   -----   -----   -----   -----   -----   -----   ----    -----   -----   ----    -----   -->
+
+        <div class="text-success mb-3"><h3>CARD DECK</h3></div>
 
         <!-- CARD DECK -->
         <div>
@@ -378,20 +529,35 @@
             </div>
         </div>
 
-        <br>
-        <br>
+        <div class="text-info mb-3">
+            <small>
+                *NOTE : format is...
+            </small>
+        </div>
 
+        <br>
+        <br>
+        <!--    -----   -----   -----   -----   -----   -----   -----   ----    -----   -----   ----    -----   -->
+
+        <div class="text-success mb-3"><h3>CARD COLUMNS</h3></div>
+
+
+
+                            <!--USE THIS! -->
         <!-- CARD COLUMNS -->
-        <div>
-            <div>
-                <img src="https://source.unsplash.com/random/300x200" alt="">
-                <div>
-                    <h4>Card title that wraps to a new line</h4>
-                    <p>This is a longer card with supporting text below as a natural lead-in to additional content. This content
+        <div class="card-columns">
+
+            <!--Card 01-->
+            <div class="card">
+                <img class="card-img-top" src="https://source.unsplash.com/random/300x200" alt="">
+                <div class="card-body">
+                    <h4 class="'card-header">Card title that wraps to a new line</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content
                         is a little bit longer.</p>
                 </div>
             </div>
-            <div>
+
+            <div class="card p-3">
                 <blockquote>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                     <footer>
@@ -402,43 +568,76 @@
                     </footer>
                 </blockquote>
             </div>
-            <div>
-                <img src="https://source.unsplash.com/random/301x200" alt="">
-                <div>
-                    <h4>Card title</h4>
-                    <p>This card has supporting text below as a natural lead-in to additional content.</p>
-                    <p>
-                        <small>Last updated 3 mins ago</small>
+
+            <!--Card 02-->
+            <div class="card">
+                <img class="card-img-top img-fluid" src="https://source.unsplash.com/random/301x200" alt="">
+                <div class="card-body">
+
+                    <h4 class="card-header mb-2">Card title</h4>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">
+                        <span class="text-muted">
+                            <small>Last updated 3 mins ago</small>
+                        </span>
+                    </p>
+
+                    <p class="card-text">
+                        <span>
+                            <small class="text-info">*NOTE : added fluid attr for img -> img class="card-img-top img-fluid"</small>
+                        </span>
                     </p>
                 </div>
             </div>
-            <div>
-                <blockquote>
+
+            <div class="card bg-dark text-white p-3">
+                <blockquote class="card-bodyquote">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                    <footer>
+
+                    <footer class="blockquote-footer">
                         <small>
                             Someone famous in
                             <cite title="Source Title">Source Title</cite>
                         </small>
+
+                        <p class="card-text">
+
+                        <span><small class="text-info">*NOTE : blockquote class="card-bodyquote" && blockquote class="card-bodyquote </small></span>
+                        </p>
+
                     </footer>
                 </blockquote>
             </div>
-            <div>
-                <div>
-                    <h4>Card title</h4>
-                    <p>This card has supporting text below as a natural lead-in to additional content.</p>
-                    <p>
-                        <small>Last updated 3 mins ago</small>
+
+
+            <!--Card 03-->
+
+            <!--CENTER THE TEXT IN A CARD-->
+            <div class="card text-center">
+                <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
                     </p>
                 </div>
             </div>
-            <div>
-                <img src="https://source.unsplash.com/random/302x200" alt="">
+
+
+
+
+            <!--Card 04-->
+            <!--BLOCKQUOTE INSIDE IMG CARD-->
+            <div class="card">
+                <img class="card-img-top img-fluid" src="https://source.unsplash.com/random/302x200" alt="">
             </div>
-            <div>
-                <blockquote>
+
+
+            <div class="card p-3 text-right">
+
+                <blockquote class="card-blockquote">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer>
+                    <footer class="blockquote-footer">
                         <small>
                             Someone famous in
                             <cite title="Source Title">Source Title</cite>
@@ -446,17 +645,24 @@
                     </footer>
                 </blockquote>
             </div>
-            <div>
-                <div>
-                    <h4>Card title</h4>
-                    <p>This is a wider card with supporting text below as a natural lead-in to additional content. This card
+
+
+            <!--Card 05-->
+            <div class="card bg-primary text-white">
+                <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card
                         has even longer content than the first to show that equal height action.</p>
-                    <p>
-                        <small>Last updated 3 mins ago</small>
+                    <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
                     </p>
                 </div>
             </div>
+
         </div>
+        <br>
+        <br>
+        <!--    -----   -----   -----   -----   -----   -----   -----   ----    -----   -----   ----    -----   -->
 
     </div>
     <!-- ./container -->
