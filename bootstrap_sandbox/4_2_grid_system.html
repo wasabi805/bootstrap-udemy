@@ -87,9 +87,18 @@
   <div class="container">
     <!--####################START HERE####################-->
 
+    <div class="text-success"><h3>Basic Responsive Grid Part I </h3></div>
+
     <!-- RESPONSIVE GRID -->
-    <div>
-      <div style="border:1px solid #333">
+
+    <div class="row">
+
+      <!--div1-->
+      <!--col-sm : whatever the smallest size you use sets the threshold for when to activate-->
+        <!--col-sm-6: everything needs to equal 12 : 6 & 6 means, make 2 cols-->
+        <!--if screen is xtra small, then the columns stack on each other-->
+
+      <div class="col-sm-6" style="border:1px solid #333">
         <ul>
           <li>6 column on small screens</li>
           <li>8 column on medium screen</li>
@@ -97,7 +106,9 @@
           <li>10 column on xlarge screen</li>
         </ul>
       </div>
-      <div style="border:1px solid #333">
+
+      <!--div2-->
+      <div div class="col-sm-6" style="border:1px solid #333">
         <ul>
           <li>6 column on small screens</li>
           <li>4 column on medium screen</li>
@@ -107,81 +118,264 @@
       </div>
     </div>
 
+    <div class="mb-0"><small class="text-info">div1 class='col-sm-6'</small></div>
+    <div class="mb-5"><small class="text-info">div1 class='col-sm-6'</small></div>
+
+
+
+    <!--  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----  ----  ----- ----  --- -->
+
+
+    <!-- RESPONSIVE GRID : Part II-->
+    <div class="text-success"><h3>Basic Responsive Grid Part II</h3></div>
+
+    <div class="row">
+
+      <!--div1-->
+      <!--col-md : now threshold for md screens is initialized -->
+      <!--col-md-8 & col-md-4: everything needs to equal 12 : 8 & 4 means, make 2 cols WITH ONE LARGER THAN THE OTHER-->
+      <!--if screen is xtra small, then the columns stack on each other-->
+
+      <div class="col-sm-6 col-md-8" style="border:1px solid #333">
+        <ul>
+          <li>6 column on small screens</li>
+          <li>8 column on medium screen</li>
+          <li>9 column on large screen</li>
+          <li>10 column on xlarge screen</li>
+        </ul>
+      </div>
+
+      <!--div2-->
+      <div div class="col-sm-6 col-md-4" style="border:1px solid #333">
+        <ul>
+          <li>6 column on small screens</li>
+          <li>4 column on medium screen</li>
+          <li>3 column on large screen</li>
+          <li>2 column on xlarge screen</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mb-0"><small class="text-info">*NOTE: responsive formatting activates on small & medium screens</small></div>
+    <div class="mb-0"><small class="text-info">div1 class='col-sm-8 col-md-8'</small></div>
+    <div class="mb-5"><small class="text-info">div1 class='col-sm-4 col-md-4'</small></div>
+
+    <!--  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----  ----  ----- ----  --- -->
+
+
+    <!-- RESPONSIVE GRID : Part II-->
+    <div class="text-success"><h3>Basic Responsive Grid Part III</h3></div>
+
+    <div class="row">
+
+      <!--div1-->
+      <!--col-md : now threshold for md screens is initialized -->
+      <!--col-md-8 & col-md-4: everything needs to equal 12 : 8 & 4 means, make 2 cols WITH ONE LARGER THAN THE OTHER-->
+      <!--if screen is xtra small, then the columns stack on each other-->
+
+      <div class="col-sm-6 col-md-8 col-lg-9" style="border:1px solid #333">
+        <ul>
+          <li>6 column on small screens</li>
+          <li>8 column on medium screen</li>
+          <li>9 column on large screen</li>
+          <li>10 column on xlarge screen</li>
+        </ul>
+      </div>
+
+      <!--div2-->
+      <div div class="col-sm-6 col-md-4 col-lg-3" style="border:1px solid #333">
+        <ul>
+          <li>6 column on small screens</li>
+          <li>4 column on medium screen</li>
+          <li>3 column on large screen</li>
+          <li>2 column on xlarge screen</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mb-0"><small class="text-info">*NOTE: responsive formatting activates on small,medium, & large screens</small></div>
+    <div class="mb-0"><small class="text-info">div1 class='col-sm-8 col-md-8 col-lg-9'</small></div>
+    <div class="mb-5"><small class="text-info">div1 class='col-sm-4 col-md-4 col-lg-3'</small></div>
+
+    <!--  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----  ----  ----- ----  --- -->
+
+
+
+    <div class="text-success"><h3>EQUAL WIDTH COLUMNS</h3></div>
     <!-- EQUAL WIDTH -->
-    <div>
-      <div style="border:1px solid #333">Equal Width</div>
-      <div style="border:1px solid #333">Equal Width</div>
-      <div style="border:1px solid #333">Equal Width</div>
-      <div style="border:1px solid #333">Equal Width</div>
-    </div>
 
+
+    <div class="row">
+      <div class="col" style="border:1px solid #333">Equal Width</div>
+      <div class="col" style="border:1px solid #333">Equal Width</div>
+      <div class="col" style="border:1px solid #333">Equal Width</div>
+      <div class="col" style="border:1px solid #333">Equal Width</div>
+    </div>
+    <div class="mb-0"><small class="text-info">*NOTE: simp/y using .col WITHOUT any params defaults all rows to be equal widths </small></div>
+    <div class="mb-5"><small class="text-info">ALSO: THEY WILL NOT STACK! </small></div>
+
+    <!--  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----  ----  ----- ----  --- -->
+
+
+    <div class="text-success"><h3>EQUAL WIDTH COLUMNS/ MULTI-ROW</h3></div>
     <!-- EQUAL WIDTH MULTI ROW -->
-    <div>
-      <div style="border:1px solid #333">Equal Width Multi</div>
-      <div style="border:1px solid #333">Equal Width Multi</div>
-      <div style="border:1px solid #333"></div>
-      <div style="border:1px solid #333">Equal Width Multi</div>
-      <div style="border:1px solid #333">Equal Width Multi</div>
+    <div class="row">
+
+      <div class="col" style="border:1px solid #333">Equal Width Multi</div>
+      <div class="col" style="border:1px solid #333">Equal Width Multi</div>
+
+
+      <div class="width-100" style="border:1px solid #333"></div>
+
+      <div class="col" style="border:1px solid #333">Equal Width Multi</div>
+      <div class="col" style="border:1px solid #333">Equal Width Multi</div>
     </div>
 
-    <!-- AUTO LAYOUT -->
-    <div>
+    <div class="mb-0"><small class="text-info">NOTE: dark line is frm div class='width-100' </small></div>
+    <div class="mb-5"><small class="text-info">ALSO: THEY WILL NOT STACK! </small></div>
+
+    <!--  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----  ----  ----- ----  --- -->
+
+    <div class="text-success"><h3>Auto-Layout : w/o equal width</h3></div>
+    <!-- AUTO LAYOUT : only divs 1 & 3 get col classes w/o a size-->
+    <div class="row">
+      <div class="col-6" style="border:1px solid #333">Auto Layout</div>
       <div style="border:1px solid #333">Auto Layout</div>
-      <div style="border:1px solid #333">Auto Layout</div>
-      <div style="border:1px solid #333">Auto Layout</div>
+      <div class="col-4" style="border:1px solid #333">Auto Layout</div>
     </div>
 
+      <!--The last col takes up the difference : 6+4 = 10 -12, div 2 = col-2 -->
+
+    <div class="mb-0"><small class="text-info">*NOTE: NO screen sizes given to the cols : only divs 1 & 3 get col sizes </small></div>
+    <div class="mb-5"><small class="text-info">ALSO: The last col takes up the difference : 6+4 = 10 -12, div 2 = col-2 </small></div>
+
+    <!--  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----  ----  ----- ----  --- -->
+
+
+                                    <!--USE THIS! RESPONSIVE-->
+
+    <div class="text-success"><h3>EQUAL WIDTH STACKED</h3></div>
     <!-- EQUAL WIDTH STACKED -->
-    <div>
-      <div style="border:1px solid #333">Equal Width Stack</div>
-      <div style="border:1px solid #333">Equal Width Stack</div>
-      <div style="border:1px solid #333">Equal Width Stack</div>
+    <div class="row">
+      <div class="col-sm" style="border:1px solid #333">Equal Width Stack</div>
+      <div class="col-sm" style="border:1px solid #333">Equal Width Stack</div>
+      <div class="col-sm" style="border:1px solid #333">Equal Width Stack</div>
     </div>
 
-    <!-- ORDERING -->
-    <div>
-      <div style="border:1px solid #333">
+    <div class="mb-5"><small class="text-info">*NOTE: All divs have class="col-sm" : NO COLUMN SIZE defined, only screen size  </small></div>
+
+
+    <!--  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----  ----  ----- ----  --- -->
+
+
+
+    <div class="text-success"><h3>Change the order </h3></div>
+    <!-- CHANGE THE ORDERING -->
+
+    <div class="row">
+
+      <div class="col bg-primary order-3" style="border:1px solid #333">
         First
       </div>
-      <div style="border:1px solid #333">
+
+      <div class="col bg-secondary order-1" style="border:1px solid #333">
         Second
       </div>
-      <div style="border:1px solid #333">
+
+      <div class="col bg-warning order-2" style="border:1px solid #333">
         Third
       </div>
+
     </div>
 
+    <div class="mb-5"><small class="text-info">*NOTE: ex.) div class= 'order-3' || order-2 || order-1</small></div>
+
+
+    <!--  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----  ----  ----- ----  --- -->
+
+                        <!-- OFFSETTING : Good for narrow layouts like login screen -->
+                                  <!--CREATE BLANK SPACES BETWEEN DIVS-->
+                                      <!--USE ALL OF THESE :  -->
+
+    <div class="text-success"><h3>Change the OFFSET : PART I </h3></div>
     <!-- OFFSETTING -->
-    <div>
+
+
+    <div class="row">
       <!-- 6 column div offset by 3 -->
-      <div style="border:1px solid #333">.col-md-6 .offset-md-3</div>
+      <div class="col-md-6 offset-md-3" style="border:1px solid #333">.col-md-6 .offset-md-3</div>
     </div>
-    <div>
+
+
+    <div class="mb-5"><small class="text-info">div class="col-md-6 offset-md-3</small></div>
+
+
+    <!--  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----  ----  ----- ----  --- -->
+
+
+    <div class="text-success"><h3>Change the OFFSET : PART II </h3></div>
+
+    <div class="row">
       <!-- 2 4 column divs, the second offset by 4 -->
-      <div style="border:1px solid #333">.col-md-4</div>
-      <div style="border:1px solid #333">.col-md-4 .offset-md-4</div>
+      <div class="col-md-4 " style="border:1px solid #333">.col-md-4</div>
+      <div class="col-md-4 offset-md-4" style="border:1px solid #333">.col-md-4 .offset-md-4</div>
     </div>
 
-    <div>
+
+    <div class="mb-0"><small class="text-info">div class="col-md-4 " </small></div>
+    <div class="mb-5"><small class="text-info">div class="col-md-4 offset-md-4"  </small></div>
+
+
+    <!--  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----  ----  ----- ----  --- -->
+
+
+    <div class="text-success"><h3>Change the OFFSET : PART III </h3></div>
+
+    <div class="row">
       <!-- 2 3 column divs, both offset by 3 -->
-      <div style="border:1px solid #333">.col-md-3 .offset-md-3</div>
-      <div style="border:1px solid #333">.col-md-3 .offset-md-3</div>
+
+      <div class="col-md-3 offset-md-3" style="border:1px solid #333">.col-md-3 .offset-md-3</div>
+      <div class="col-md-3 offset-md-3" style="border:1px solid #333">.col-md-3 .offset-md-3</div>
     </div>
 
+    <div class="mb-5"><small class="text-info">both divs: div class="col-md-3 offset-md-3"</small></div>
+
+
+    <!--  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----  ----  ----- ----  --- -->
+
+
+
+
+    <div class="text-success"><h3>NESTING : Put grid rows inside another grid rows </h3></div>
     <!-- NESTING -->
-    <div>
-      <div style="border:1px solid blue">
+    <div class="row">
+
+      <!--start with sm since it's nested and you want it to still fit in the original div-->
+      <div class="col-sm-9" style="border:1px solid blue">
         Level 1: .col-sm-9
-        <div>
-          <div style="border:1px solid red">
+
+        <!--Nested grid here-->
+
+        <div class="row" >
+
+          <!--!IMPORTANT: set the first col size w/o a screen then set a screen afterwards-->
+          <div class="col-8 col-sm-6" style="border:1px solid red">
             Level 2: .col-8 .col-sm-6
-          </div>
-          <div style="border:1px solid red">
+          </div><!--nested row1-->
+
+          <div class="col-4 col-sm-6" style="border:1px solid red">
             Level 2: .col-4 .col-sm-6
-          </div>
+          </div><!--nested row2-->
         </div>
+
       </div>
     </div>
+
+    <div class="mb-5"><small class="text-info">best to read the notes</small></div>
+
+
+    <!--  ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----  ----  ----- ----  --- -->
+
 
     <div style="margin-top:500px;"></div>
 

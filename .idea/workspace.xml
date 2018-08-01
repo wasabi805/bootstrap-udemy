@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="074c0a1b-38ba-41ef-9888-2fe5691d4a96" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" afterPath="$PROJECT_DIR$/.idea/StickySelectionHighlights.xml" />
-      <change beforePath="$PROJECT_DIR$/bootstrap_sandbox/3_11_jumbotron.html" afterPath="$PROJECT_DIR$/bootstrap_sandbox/3_11_jumbotron.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/bootstrap_sandbox/4_2_grid_system.html" afterPath="$PROJECT_DIR$/bootstrap_sandbox/4_2_grid_system.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,25 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3_9_cards.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap_sandbox/3_9_cards.html">
+      <file leaf-file-name="4_2_grid_system.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bootstrap_sandbox/4_2_grid_system.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="541" column="66" lean-forward="true" selection-start-line="541" selection-start-column="8" selection-end-line="541" selection-end-column="66" />
+            <state relative-caret-position="98">
+              <caret line="367" column="34" lean-forward="true" selection-start-line="367" selection-start-column="34" selection-end-line="367" selection-end-column="34" />
               <folding>
-                <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3_11_jumbotron.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bootstrap_sandbox/3_11_jumbotron.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="121" column="27" lean-forward="true" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
-              <folding>
-                <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#19;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#23;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,6 +84,7 @@
         <option value="$PROJECT_DIR$/bootstrap_sandbox/3_9_cards.html" />
         <option value="$PROJECT_DIR$/bootstrap_sandbox/3_10_media_object.html" />
         <option value="$PROJECT_DIR$/bootstrap_sandbox/3_11_jumbotron.html" />
+        <option value="$PROJECT_DIR$/bootstrap_sandbox/4_2_grid_system.html" />
       </list>
     </option>
   </component>
@@ -177,12 +174,12 @@
       <option name="presentableId" value="Default" />
       <updated>1532653831596</updated>
       <workItem from="1532653833504" duration="41680000" />
-      <workItem from="1532981006900" duration="24094000" />
+      <workItem from="1532981006900" duration="28751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65774000" />
+    <option name="totallyTimeSpent" value="70431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1121" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -489,6 +486,23 @@
           <caret line="121" column="27" lean-forward="true" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap_sandbox/4_2_grid_system.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="367" column="34" lean-forward="true" selection-start-line="367" selection-start-column="34" selection-end-line="367" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#10;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#19;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#23;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
